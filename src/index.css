@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+.explanation {
+  color: var(--color-gray-600);
+  margin-bottom: 1rem;
+}
+
+.explanation a {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--color-indigo-500);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-indigo-600);
+}
+
+.btn-primary:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.btn-secondary {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-gray-300);
+  color: var(--color-gray-600);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-gray-100);
+}
